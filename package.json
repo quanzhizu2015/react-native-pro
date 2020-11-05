@@ -1,0 +1,73 @@
+{
+  "name": "CX",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/netinfo": "^5.9.7",
+    "@react-native-community/progress-bar-android": "^1.0.3",
+    "@react-native-community/progress-view": "^1.1.1",
+    "blueimp-md5": "^2.18.0",
+    "crypto-js": "^4.0.0",
+    "immutability-helper": "^3.1.1",
+    "jssha": "^3.1.2",
+    "lodash": "^4.17.20",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "moment": "^2.26.0",
+    "prop-types": "^15.7.2",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-calendars": "^1.290.0",
+    "react-native-charts-wrapper": "^0.5.7",
+    "react-native-confirmation-code-field": "^6.4.0",
+    "react-native-device-info": "^5.6.1",
+    "react-native-fast-image": "^8.1.5",
+    "react-native-image-crop-picker": "^0.32.0",
+    "react-native-input-scroll-view": "^1.11.0",
+    "react-native-kline": "^2.0.5",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-parallax-scroll-view": "^0.21.3",
+    "react-native-pdf": "^6.2.1",
+    "react-native-qrcode-svg": "^6.0.6",
+    "react-native-smooth-pincode-input": "^1.0.9",
+    "react-native-spinkit": "^1.5.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-video": "^4.4.5",
+    "react-native-webview": "^10.3.2",
+    "rn-fetch-blob": "^0.12.0",
+    "teaset": "^0.7.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.1",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.1.0",
+    "jest": "^26.0.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ]
+    ]
+  }
+}
